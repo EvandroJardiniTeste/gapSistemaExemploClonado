@@ -62,6 +62,7 @@ if __name__ == '__main__':
         print("5 - Sair")
         respLoop = input("[main|if] Escolha uma opção: ")
         if respLoop == '1':
+            # chama o cadastro de clientes
             clientes.cadClientes()
 
         if respLoop == '2':
